@@ -3,7 +3,7 @@ import time
 import redis
 
 
-r = redis.Redis(host='redis-17178.c8.us-east-1-4.ec2.cloud.redislabs.com', port='17178', password='PLZQXvBRTtMtzkNkTGJzrRwF8YK4osBv')
+r = redis.Redis(host='redis-17178.c8.us-east-1-4.ec2.cloud.redislabs.com', port='***', password='***')
 
 
 def on_message(client, userdata, message):
