@@ -22,7 +22,7 @@ GPIO.output(BZRPin, GPIO.LOW)
 p = GPIO.PWM(BZRPin, 50) # init frequency: 50HZ
 
 
-r = redis.Redis(host='redis-17178.c8.us-east-1-4.ec2.cloud.redislabs.com', port='17178', password='PLZQXvBRTtMtzkNkTGJzrRwF8YK4osBv')
+r = redis.Redis(host='redis-17178.c8.us-east-1-4.ec2.cloud.redislabs.com', port='***', password='*****')
 
 #MQTT 
 broker_address="192.168.0.102"
